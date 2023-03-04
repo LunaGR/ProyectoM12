@@ -1,0 +1,82 @@
+html{
+    cursor: url("img/beer.png"), auto;
+}
+
+#login{
+    background-image: url("img/clover.png");
+    
+}
+#containerLogin{
+    color: whitesmoke;
+    margin-top: 200px;
+    margin-left: 37%;
+    margin-right: 37%;
+    border-style: double;
+    background-image: url("img/orbita.jpg");
+}
+
+
+#user{
+    background-image: url("img/trebol.jpg");
+}
+
+#text{
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 200px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 3%;
+    background-color: lightgreen;
+}
+#btn{
+    display: flexbox;
+    float: right;
+}
+btnsuccess{
+    transition-duration: 0.4s;
+}
+.btnsuccess:hover{
+    background-color: midnightblue;
+    color:white
+}
+
+#admin{
+    background-image: url("img/system.jpg");
+    color: aliceblue;
+}
+
+#access{
+    background-color: lightseagreen;
+    margin-top: 130px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-style: solid;
+    padding: 10px;
+}
+
+#registro{
+    background-image: url("img/network.jpg");
+}
+h2{
+    margin-top: 150px;
+}
+
+#formregistro{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.container{
+    margin-top: 150px;
+    margin-left: 50%;
+    margin-right: 50%;
+    padding: 10px;
+    border-style: double;
+    background-color: lightgrey;
+}
+
+#verdatos{
+    background-image: url("img/system.jpg");
+    
+}

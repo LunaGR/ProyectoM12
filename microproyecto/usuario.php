@@ -9,12 +9,21 @@ if (empty($_SESSION['usuario'])) {
 <html>
 
 <head>
-
+    <link rel="stylesheet" href="Style.css">
 </head>
 
-<body>
+<body id="user">
     <h1>Página del Usuario</h1>
-    <a href="cerrarsesion.php"><button class="btn success">Cerrar sesión</button>
+    <div id="text">
+        Bienvenido/a, acabas de iniciar sesión. </br>
+        <p>Pronto será San Patricio, una festividad proveniente de Irlanda
+        ¿Sabias que existe una leyenda en relación a un leprechaun, los treboles
+        y una olla de oro?</p>  </br>
+        <div id="btn">
+            <a href="cerrarsesion.php"><button class="btnsuccess">Cerrar sesión</button>
+        </div>
+    </div>
+
 </body>
 
 </html>

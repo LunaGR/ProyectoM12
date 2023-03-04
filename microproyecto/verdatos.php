@@ -14,6 +14,7 @@ if (empty($_SESSION['usuario'])) {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+  <link rel="stylesheet" href="Style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
     integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 
@@ -24,7 +25,7 @@ if (empty($_SESSION['usuario'])) {
 
 </head>
 
-<body>
+<body id="verdatos">
   <div class="container">
 
 
@@ -64,9 +65,11 @@ if (empty($_SESSION['usuario'])) {
       </div>
 
 
-      <button type="submit" class="btn btn-success" name="Enviar">Seleccionar usuario</button><br><br>
-      <button type="submit" class="btn btn-success" name="borrar">Borrar datos</button><br><br>
+      <button type="submit" class="btn btn-success" name="Enviar">Seleccionar usuario</button>
+      <button type="submit" class="btn btn-success" name="borrar">Borrar datos</button>
       <a class="btn btn-success" href="modificardatos.php">Modificar datos</a><br><br>
+
+
 
     </form>
 
@@ -98,6 +101,11 @@ if (empty($_SESSION['usuario'])) {
  }
  ;
  ?>
+    <center>
+    <a href="login.php"><button class="btn success">Volver al login</button>
+    <a href="admin.php"><button class="btn success">Volver al menu de admin</button>
+    </center>
+    
   </div>
 
 
@@ -121,5 +129,3 @@ if (empty($_SESSION['usuario'])) {
 </body>
 
 </html>
-<a href="login.php"><button class="btn success">Volver al login</button><br><br>
-  <a href="admin.php"><button class="btn success">Volver al menu de admin</button>

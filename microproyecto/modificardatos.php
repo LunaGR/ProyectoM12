@@ -27,6 +27,8 @@ if (mysqli_num_rows($result) > 0) {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+  <link rel="stylesheet" href="Style.css">
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
     integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
@@ -38,7 +40,7 @@ if (mysqli_num_rows($result) > 0) {
 
 </head>
 
-<body>
+<body id="verdatos">
   <div class="container">
 
 
@@ -62,9 +64,11 @@ if (mysqli_num_rows($result) > 0) {
         </select><br>
       </div>
 
-      <button type="submit" class="btn btn-success" name="modificar">Modificar</button><br><br>
-      <a class="btn btn-success" href="login.php">Volver al login</a><br><br>
-      <a class="btn btn-success" href="admin.php">Volver al menu de admin</a>
+      <center>
+        <button type="submit" class="btn btn-success" name="modificar">Modificar</button>
+        <a class="btn btn-success" href="login.php">Volver al login</a>
+        <a class="btn btn-success" href="admin.php">Volver al menu de admin</a>
+      </center>
     </form>
 
   </div>

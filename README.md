@@ -1,7 +1,11 @@
 # ProyectoM12
 Repositorio de las act de m12 para entregar
 
-A ver... estoy haciendo esta carpeta de prueba para ver si se puede hacer lo de realizar la actividad y comartir la misma carpeta.
-Si todo va bien, se crea una privada para el proyecto gordo XD.
+Repositorio del Proyecto a entregar para M12. En el repositorio de microproyecto se encuentran todos los archivos.
 
-Nota: esta carpeta seria para la act que hay que entregar a la profe.
+resumen: pagina web con acceso a administrador y usuario. programación básica.
+
+Repositorio realizado por:
+Luna Gallardo Rendón
+Francisco Angel Panadero Ruiz
+Maria del Carmen Enguita Cano

@@ -28,6 +28,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html>
 
 <head>
+    <link rel="stylesheet" href="Style.css">
+</head>
 
 <body>
     <center>
@@ -49,6 +51,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </form>
     </center>
 </body>
-</head>
+
 
 </html>

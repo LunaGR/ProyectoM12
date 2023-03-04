@@ -31,24 +31,26 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <link rel="stylesheet" href="Style.css">
 </head>
 
-<body>
+<body id="login">
     <center>
-        <h1>Login</h1>
-        <br><br><br>
-        <form action="#" method="POST">
-            <div>
-                Usuario: <input type="text" name="usuario" required>
-            </div>
-            <br>
-            <div>
-                Contraseña: <input type="password" name="contraseña" required>
-            </div>
-            <br>
-            <div>
-                <input type="submit" value="login">
-            </div>
-            <br>
-        </form>
+        <div id="containerLogin">
+            <h1>Login</h1>
+            <br><br><br>
+            <form action="#" method="POST">
+                <div>
+                    Usuario: <input type="text" name="usuario" required>
+                </div>
+                <br>
+                <div>
+                    Contraseña: <input type="password" name="contraseña" required>
+                </div>
+                <br>
+                <div>
+                    <input type="submit" value="login">
+                </div>
+                <br>
+            </form>
+        </div>
     </center>
 </body>
 

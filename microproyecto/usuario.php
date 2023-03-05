@@ -9,6 +9,7 @@ if (empty($_SESSION['usuario'])) {
 <html>
 
 <head>
+    <!--se crea el link al css y las etiquetas precisas -->
     <link rel="stylesheet" href="Style.css">
 </head>
 

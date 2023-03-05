@@ -28,6 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html>
 
 <head>
+    <!--se crea el link del css y las etiquetas de body  -->
     <link rel="stylesheet" href="Style.css">
 </head>
 
